@@ -1,0 +1,24 @@
+div {
+    color: rgb(16, 78, 247);
+  }
+body{
+  background-color: aqua;
+}
+/* პლანშეტი */
+@media (min-width:400px) and (max-width:700px){
+  body{
+    background-color: yellowgreen;
+  }
+}
+/* ჩვეულებრივი დესკტოპი */
+@media (min-width: 700px) and (max-width:1000px){
+  body{
+    background-color: brown;
+  }
+}
+/* ტელეფონი */
+@media (min-width: 10px) and (max-width:400px){
+  body{
+    background-color: darkgrey;
+  }
+}
